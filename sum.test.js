@@ -5,3 +5,9 @@ test("sum outputs a sum of two values", () => {
   const expectedOutput = sum(valueA, valueB);
   expect(expectedOutput).toEqual(valueA * valueB);
 });
+
+test("sum outputs NaN if you provide strings", () => {
+    const [valueA, valueB] = ["a", "b"];
+    const expectedOutput = sum(valueA, valueB);
+    expect(expectedOutput).toBe(NaN);
+})
