@@ -16,7 +16,6 @@ https://jestjs.io/
 
 - How its one of the largest testing frameworks (close to 17 million weekly downloads)
 - Basic functionality with introduction to basic functions
-- Addition of `jest-dom`
 
 ### What is React Testing Library
 
@@ -26,7 +25,8 @@ https://testing-library.com/docs/react-testing-library/intro/
 - Testing behaviour instead of implementation
 - Core functions (render, screen, getById)
 - Show more queries and the matrix of them https://testing-library.com/docs/react-testing-library/cheatsheet#queries
-- user events -> https://testing-library.com/docs/react-testing-library/migrate-from-enzyme#what-is-react-testing-library
+- Addition of `userEvents` -> https://testing-library.com/docs/react-testing-library/migrate-from-enzyme#what-is-react-testing-library
+- Addition of `jest-dom`
 
 ### Test structure
 
